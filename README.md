@@ -19,3 +19,4 @@ List of modifications:
   cmake -DCMAKE_TOOLCHAIN_FILE=../../cmake/toolchain_bcc.cmake -DCMAKE_CXX_FLAGS="-mcpu=v8 -mhard-float" -DCMAKE_BUILD_TYPE=Release -DBUILD_FPIC=OFF -DENABLE_LAPACK=OFF ../..
   make
   ```
+In term of performance, it is of course less interesting than GSL or Eigen's implementation, but still interesting for embedded system use, if Eigen or GSL is not an option.
