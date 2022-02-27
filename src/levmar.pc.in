@@ -1,0 +1,11 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+Name: levmar
+Description: A small library for non-linear least-squares minimization based on Levenberg Marquard algorithm. 
+Requires:
+Version: @VERSION@
+Libs: -L${libdir} -llevmar
+Cflags: -I${includedir}
